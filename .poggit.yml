@@ -5,8 +5,7 @@ branches:
 projects:
   AreaMusic:
        path: ""
-       icon: ""
        libs:
-      - src: NhanAZ/libBedrock/libBedrock
-        version: x.y.z
+         - src: NhanAZ/libBedrock/libBedrock
+           version: 1.1.9
 ...
