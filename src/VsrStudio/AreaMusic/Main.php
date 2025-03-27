@@ -68,7 +68,7 @@ class Main extends PluginBase implements Listener {
         }
     }
 
-    private function playMusic(Player $player): void {
+    public function playMusic(Player $player): void {
         $playerName = $player->getName();
         $this->playingMusic[$playerName] = true;
 
@@ -103,7 +103,7 @@ class Main extends PluginBase implements Listener {
     private function stopMusic(Player $player): void {
         unset($this->playingMusic[$player->getName()]);
 
-        $packet = StopSoundPacket::create("Ramadhan", false, false);
+        $packet = StopSoundPacket::create("Ramadhan", false);
         $player->getNetworkSession()->sendDataPacket($packet);
     }
 
