@@ -1,0 +1,25 @@
+name: AreaMusic
+author: VsrStudio
+version: 0.0.1
+api: 5.0.0
+main: VsrStudio\AreaMusic\Main
+website: https://github.com/XOneFG
+description: Music will be heard in certain areas
+
+commands:
+  musicpos1:
+    description: Tetapkan Pos1 untuk area musik.
+    permission: backgroundmusic.set
+
+  musicpos2:
+    description: Tetapkan Pos2 untuk area musik.
+    permission: backgroundmusic.set
+
+  setmusicarea:
+    description: Simpan area musik dari Pos1 ke Pos2.
+    permission: backgroundmusic.set
+
+permissions:
+  backgroundmusic.set:
+    default: op
+    description: Izin untuk mengatur area musik.
