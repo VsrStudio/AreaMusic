@@ -46,22 +46,22 @@ music_areas:
    y: 75
    z: 220
 ```
-❓ FAQ
+# ❓ FAQ
 
-❔ Will the music stop automatically when a player leaves the area?
-✔ Yes, the music will stop automatically when the player exits the area.
-❔ Can I set multiple music areas?
-✔ Yes, you can define multiple areas with different music.
+- ❔ Will the music stop automatically when a player leaves the area?
+- ✔ Yes, the music will stop automatically when the player exits the area.
+- ❔ Can I set multiple music areas?
+- ✔ Yes, you can define multiple areas with different music.
 
-📜 License
+# 📜 License
 
 This plugin is released under the MIT License.
 
-💡 Credits
+# 💡 Credits
 
-👨‍💻 Developer: VsrStudio
-🌎 Website: vsrstudio.web.id
-💌 Gmail: vsrstudio@xonefg.xyz
-📂 GitHub Repository: VsrStudio/AreaMusic
+- 👨‍💻 Developer: VsrStudio
+- 🌎 Website: vsrstudio.web.id
+- 💌 Gmail: vsrstudio@xonefg.xyz
+- 📂 GitHub Repository: VsrStudio/AreaMusic
 
 Save this as `README.md` in your GitHub repository. Let me know if you need modifications!
