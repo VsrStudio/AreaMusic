@@ -1,0 +1,22 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Ramadhan Soundd",
+        "name": "AreaMusic",
+        "uuid": "4cedcb28-4e7a-406b-bb90-92eb15969978",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 18, 0]
+    },
+    "modules": [
+        {
+            "description": "Ramadhan Soundd",
+            "type": "resources",
+            "uuid": "5e1a685b-96c8-4668-b440-b8b460420cac",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors":["VsrStudio"],
+        "url":"https://github.com/XOneFG"
+    }
+}
