@@ -1,0 +1,12 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/VsrStudio/AreaMusic
+build-by-default: true
+branches:
+- main
+projects:
+  AreaMusic:
+       path: ""
+       icon: ""
+       libs:
+      - src: NhanAZ/libBedrock/libBedrock
+        version: x.y.z
+...
