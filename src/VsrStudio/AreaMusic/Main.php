@@ -97,13 +97,13 @@ class Main extends PluginBase implements Listener {
                     $this->plugin->playMusic($this->player);
                 }
             }
-        }, 220 * 20);
+        }, 32 * 20);
     }
 
     private function stopMusic(Player $player): void {
         unset($this->playingMusic[$player->getName()]);
 
-        $packet = StopSoundPacket::create("Ramadhan", false);
+        $packet = StopSoundPacket::create("Ramadhan", false, false);
         $player->getNetworkSession()->sendDataPacket($packet);
     }
 
